@@ -10,7 +10,9 @@ import org.springframework.batch.core.step.builder.StepBuilder;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.batch.item.database.BeanPropertyItemSqlParameterSourceProvider;
+import org.springframework.batch.item.database.JdbcCursorItemReader;
 import org.springframework.batch.item.database.builder.JdbcBatchItemWriterBuilder;
+import org.springframework.batch.item.database.builder.JdbcCursorItemReaderBuilder;
 import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -18,13 +20,16 @@ import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 @Configuration
-@EnableBatchProcessing
 public class BatchConfig {
 
     @Autowired
@@ -33,10 +38,11 @@ public class BatchConfig {
 
     @Bean
     public DataSource dataSource() {
-        DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create(dataSourceBuilder.driverClassName("org.h2.Driver");
-        dataSourceBuilder.url("jdbc:h2:mem:test");
-        dataSourceBuilder.username("SA");
-        dataSourceBuilder.password("");
+        DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
+        dataSourceBuilder.driverClassName("oracle.jdbc.OracleDriver");
+        dataSourceBuilder.url("jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL");
+        dataSourceBuilder.username("rm89355");
+        dataSourceBuilder.password("261102");
         return dataSourceBuilder.build();
     }
 
@@ -63,24 +69,38 @@ public class BatchConfig {
                 .build();
     }
 
+//    @Bean
+//    public ItemReader<Pessoa> reader(@Qualifier("appDS") DataSource dataSource, PessoaRowMapper pessoaRowMapper) {
+////        return new FlatFileItemReaderBuilder<Pessoa>()
+////                .name("reader")
+////                .resource(new FileSystemResource("files/pessoas.csv"))
+////                .comments("--")
+////                .delimited()
+////                .names("nome", "email", "dataNascimento", "idade", "id")
+////                .targetType(Pessoa.class)
+////                .build();
+//
+//    }
+
     @Bean
-    public ItemReader<Pessoa> reader() {
-        return new FlatFileItemReaderBuilder<Pessoa>()
-                .name("reader")
-                .resource(new FileSystemResource("files/pessoas.csv"))
-                .comments("--")
-                .delimited()
-                .names("nome", "email", "dataNascimento", "idade", "id")
-                .targetType(Pessoa.class)
-                .build();
+    public JdbcCursorItemReader<Pessoa> reader(@Qualifier("appDS") DataSource dataSource) {
+        JdbcCursorItemReader<Pessoa> reader = new JdbcCursorItemReader<>();
+        reader.setDataSource(dataSource);
+        reader.setSql("select * from pessoa");
+        reader.setRowMapper(new PessoaRowMapper());
+//        reader.setMaxRows(10);
+        reader.setFetchSize(10);
+        reader.setQueryTimeout(10000);
+        return reader;
     }
+
 
     @Bean
     public ItemWriter<Pessoa> writer(@Qualifier("appDS") DataSource dataSource) {
         return new JdbcBatchItemWriterBuilder<Pessoa>()
                 .dataSource(dataSource)
                 .sql(
-                        "INSERT INTO pessoa (id, nome, email, data_nascimento, idade) VALUES (:id, :nome, :email, :dataNascimento, :idade)")
+                        "INSERT INTO pessoa2 (id, nome, email, data_nascimento, idade) VALUES (:id, :nome, :email, :dataNascimento, :idade)")
                 .itemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<>())
                 .build();
     }

@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d80f98a1-a532-4019-990e-45ce8589a170" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/files/clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/ArquivoLarguraFixaJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/job/ArquivoLarguraFixaJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/reader/LeituraArquivoLarguraFixaReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/step/LeituraArquivoLarguraFixaStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/writer/LeituraArquivoLarguraFixaWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArquivoLarguraFixaJob/src/test/java/com/springbatch/arquivolargurafixa/ArquivoLarguraFixaJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._ArquivoDelimitadoJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._ArquivoLarguraFixaJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._ArquivoMultiplosArquivosJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._ArquivoMultiplosFormatosJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._JdbcCursorReaderJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._JdbcPagingReaderJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._SkipExceptionJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/._Tarefa 6 - DemonstrativoOrcamentarioJob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._.vscode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/.vscode/._launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/files/._clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/._arquivodelimitado" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/._ArquivoDelimitadoJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/dominio/._Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/job/._ArquivoDelimitadoJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/reader/._LeituraArquivoDelimitadoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/step/._LeituraArquivoDelimitadoStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/writer/._LeituraArquivoDelimitadoWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/test/java/com/springbatch/._arquivodelimitadojob" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoDelimitadoJob/src/test/java/com/springbatch/arquivodelimitadojob/._ArquivoDelimitadoJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._.vscode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/.vscode/._launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/files/._clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/._arquivolargurafixa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/._ArquivoLarguraFixaJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/dominio/._Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/job/._ArquivoLarguraFixaJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/reader/._LeituraArquivoLarguraFixaReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/step/._LeituraArquivoLarguraFixaStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/writer/._LeituraArquivoLarguraFixaWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/test/java/com/springbatch/._arquivolargurafixa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoLarguraFixaJob/src/test/java/com/springbatch/arquivolargurafixa/._ArquivoLarguraFixaJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._.vscode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.vscode/._launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/.vscode/._settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/files/._clientes1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/files/._clientes2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/files/._clientes3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/._arquivomultiplosformatos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._ArquivoMultiplosFormatosJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/._Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/._Transacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/job/._ArquivoMultiplosArquivosJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/._ArquivoClienteTransacaoReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/._ArquivoMultiplosArquivosReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/._ClienteTransacaoLineMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/._MultiplosArquivosClienteTransacaoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/step/._LeituraArquivoMultiplosFormatosStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/writer/._LeituraArquivoMultiplosFormatosWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/test/java/com/springbatch/._arquivomultiplosformatos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosArquivosJob/src/test/java/com/springbatch/arquivomultiplosformatos/._ArquivoMultiplosFormatosJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._.vscode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/.vscode/._launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/files/._clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/._arquivomultiplosformatos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._ArquivoMultiplosFormatosJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/._Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/._Transacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/job/._ArquivoMultiplosFormatosJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/._ArquivoClienteTransacaoReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/._ArquivoMultiplosFormatosReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/._ClienteTransacaoLineMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/step/._LeituraArquivoMultiplosFormatosStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/writer/._LeituraArquivoMultiplosFormatosWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/test/java/com/springbatch/._arquivomultiplosformatos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/ArquivoMultiplosFormatosJob/src/test/java/com/springbatch/arquivomultiplosformatos/._ArquivoMultiplosFormatosJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._.vscode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/.vscode/._launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/._jdbccursorreader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/._JdbcCursorReaderJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/._config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/config/._DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/dominio/._Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/job/._JdbcCursorReaderJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/reader/._JdbcCursorReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/step/._JdbcCursorReaderStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/writer/._JdbcCursorWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/resources/._data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/main/resources/._schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/test/java/com/springbatch/._jdbccursorreader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcCursorReaderJob/src/test/java/com/springbatch/jdbccursorreader/._JdbcCursorReaderJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._.vscode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/.vscode/._launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/._jdbcpagingreader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/._JdbcPagingReaderJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/._config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/config/._DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/dominio/._Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/job/._JdbcPagingReaderJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/reader/._JdbcPagingReaderReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/step/._JdbcPagingReaderStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/writer/._JdbcPagingReaderWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/main/resources/._data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/test/java/com/springbatch/._jdbcpagingreader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/JdbcPagingReaderJob/src/test/java/com/springbatch/jdbcpagingreader/._JdbcPagingReaderJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._.vscode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/.vscode/._launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/._skipexception" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/._SkipExceptionJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/._config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/config/._DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/dominio/._Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/job/._SkipExceptionJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/reader/._SkipExceptionReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/step/._SkipExceptionStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/writer/._SkipExceptionWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/main/resources/._data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/test/java/com/springbatch/._skipexception" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/SkipExceptionJob/src/test/java/com/springbatch/skipexception/._SkipExceptionJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._.mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/._src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.mvn/._wrapper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.mvn/wrapper/._MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.mvn/wrapper/._maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.mvn/wrapper/._maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.settings/._org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.settings/._org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.settings/._org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.settings/._org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.settings/._org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/._lancamentos1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/._lancamentos2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/._lancamentos3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/._scripts.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/._main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/._resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/._demonstrativoorcamentario" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/._DemonstrativoOrcamentarioJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/._config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/._dominio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/._job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/._reader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/._step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/._writer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/config/._DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/dominio/._GrupoLancamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/dominio/._Lancamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/job/._DemonstrativoOrcamentarioJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/._ArquivoLancamentoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/._BancoLancamentoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/._DemonstrativoOrcamentarioReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/._GrupoLancamentoReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/step/._DemonstrativoOrcamentarioStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/writer/._DemonstrativoOrcamentarioWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/resources/._application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/test/._java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/test/java/._com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/test/java/com/._springbatch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/test/java/com/springbatch/._demonstrativoorcamentario" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/__MACOSX/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/test/java/com/springbatch/demonstrativoorcamentario/._DemonstrativoOrcamentarioJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/files/clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/ArquivoDelimitadoJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/job/ArquivoDelimitadoJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/reader/LeituraArquivoDelimitadoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/step/LeituraArquivoDelimitadoStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/main/java/com/springbatch/arquivodelimitado/writer/LeituraArquivoDelimitadoWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoDelimitadoJob/src/test/java/com/springbatch/arquivodelimitadojob/ArquivoDelimitadoJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/files/clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/ArquivoLarguraFixaJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/job/ArquivoLarguraFixaJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/reader/LeituraArquivoLarguraFixaReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/step/LeituraArquivoLarguraFixaStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/main/java/com/springbatch/arquivolargurafixa/writer/LeituraArquivoLarguraFixaWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoLarguraFixaJob/src/test/java/com/springbatch/arquivolargurafixa/ArquivoLarguraFixaJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/files/clientes1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/files/clientes2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/files/clientes3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/ArquivoMultiplosFormatosJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/Transacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/job/ArquivoMultiplosArquivosJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/ArquivoClienteTransacaoReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/ArquivoMultiplosArquivosReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/ClienteTransacaoLineMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/MultiplosArquivosClienteTransacaoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/step/LeituraArquivoMultiplosFormatosStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/java/com/springbatch/arquivomultiplosformatos/writer/LeituraArquivoMultiplosFormatosWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosArquivosJob/src/test/java/com/springbatch/arquivomultiplosformatos/ArquivoMultiplosFormatosJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/files/clientes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/ArquivoMultiplosFormatosJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/dominio/Transacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/job/ArquivoMultiplosFormatosJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/ArquivoClienteTransacaoReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/ArquivoMultiplosFormatosReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/reader/ClienteTransacaoLineMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/step/LeituraArquivoMultiplosFormatosStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/java/com/springbatch/arquivomultiplosformatos/writer/LeituraArquivoMultiplosFormatosWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/ArquivoMultiplosFormatosJob/src/test/java/com/springbatch/arquivomultiplosformatos/ArquivoMultiplosFormatosJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/JdbcCursorReaderJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/job/JdbcCursorReaderJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/reader/JdbcCursorReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/step/JdbcCursorReaderStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/java/com/springbatch/jdbccursorreader/writer/JdbcCursorWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcCursorReaderJob/src/test/java/com/springbatch/jdbccursorreader/JdbcCursorReaderJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/JdbcPagingReaderJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/job/JdbcPagingReaderJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/reader/JdbcPagingReaderReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/step/JdbcPagingReaderStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/java/com/springbatch/jdbcpagingreader/writer/JdbcPagingReaderWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/JdbcPagingReaderJob/src/test/java/com/springbatch/jdbcpagingreader/JdbcPagingReaderJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/SkipExceptionJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/dominio/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/job/SkipExceptionJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/reader/SkipExceptionReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/step/SkipExceptionStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/java/com/springbatch/skipexception/writer/SkipExceptionWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/SkipExceptionJob/src/test/java/com/springbatch/skipexception/SkipExceptionJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/lancamentos1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/lancamentos2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/lancamentos3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/files/scripts.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/DemonstrativoOrcamentarioJobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/dominio/GrupoLancamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/dominio/Lancamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/job/DemonstrativoOrcamentarioJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/ArquivoLancamentoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/BancoLancamentoReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/DemonstrativoOrcamentarioReaderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/reader/GrupoLancamentoReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/step/DemonstrativoOrcamentarioStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/java/com/springbatch/demonstrativoorcamentario/writer/DemonstrativoOrcamentarioWriterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TESTES/v5/Tarefa 6 - DemonstrativoOrcamentarioJob/src/test/java/com/springbatch/demonstrativoorcamentario/DemonstrativoOrcamentarioJobApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/src/main/java/com/wendel/primeiroprojetospringbatch/BatchConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/src/main/java/com/wendel/primeiroprojetospringbatch/PrimeiroProjetoSpringbatchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chunk-par-ou-impar/src/test/java/com/wendel/primeiroprojetospringbatch/PrimeiroProjetoSpringbatchApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/main/java/com/wendel/primeiroprojetospringbatch/PrimeiroProjetoSpringbatchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/main/java/com/wendel/primeiroprojetospringbatch/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/main/java/com/wendel/primeiroprojetospringbatch/config/PropsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/main/java/com/wendel/primeiroprojetospringbatch/job/BatchConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/main/java/com/wendel/primeiroprojetospringbatch/step/ImprimeOlaStepConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/main/java/com/wendel/primeiroprojetospringbatch/tasklet/ImprimeOlaTasklet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch - refatorado/src/test/java/com/wendel/primeiroprojetospringbatch/PrimeiroProjetoSpringbatchApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/src/main/java/com/wendel/primeiroprojetospringbatch/BatchConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/src/main/java/com/wendel/primeiroprojetospringbatch/PrimeiroProjetoSpringbatchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-springbatch/src/test/java/com/wendel/primeiroprojetospringbatch/PrimeiroProjetoSpringbatchApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeirojobspringbatch-properties/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeirojobspringbatch-properties/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbatch-v5/src/main/java/br/com/wemd/springbatchv5/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbatch-v5/src/main/java/br/com/wemd/springbatchv5/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbatch-v5/src/main/java/br/com/wemd/springbatchv5/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbatch-v5/src/main/java/br/com/wemd/springbatchv5/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbatch-v5/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springbatch-v5/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbatch-v5/target/classes/br/com/wemd/springbatchv5/BatchConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springbatch-v5/target/classes/br/com/wemd/springbatchv5/BatchConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbatch-v5/target/classes/br/com/wemd/springbatchv5/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springbatch-v5/target/classes/br/com/wemd/springbatchv5/Pessoa.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fSxfUbrjbvQSjNC2r9ZsAMUbQY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArquivoMultiplosFormatosJobApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/wende/OneDrive/Documentos/Projetos-SpringBatch/Projetos-READER/JdbcCursorReaderJob"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ArquivoMultiplosFormatosJobApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbatch.arquivomultiplosformatos.ArquivoMultiplosFormatosJobApplication" />
+      <module name="ArquivoMultiplosFormatosJob" />
+      <option name="PROGRAM_PARAMETERS" value="arquivosClientes=file:files/clientes*" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbatch.arquivomultiplosformatos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArquivoMultiplosFormatosJobApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-graalvm-jdk-21.0.2-f644763e9732-f81af680" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d80f98a1-a532-4019-990e-45ce8589a170" name="Changes" comment="" />
+      <created>1713808383804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713808383804</updated>
+    </task>
+    <servers />
+  </component>
+</project>
